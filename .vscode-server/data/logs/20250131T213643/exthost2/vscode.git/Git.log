@@ -1,0 +1,61 @@
+2025-01-31 21:37:56.975 [info] [main] Log level: Info
+2025-01-31 21:37:56.975 [info] [main] Validating found git in: "git"
+2025-01-31 21:37:56.975 [info] [main] Using git "2.34.1" from "git"
+2025-01-31 21:37:56.975 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-31 21:37:56.975 [info] > git rev-parse --show-toplevel [36ms]
+2025-01-31 21:37:56.975 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-31 21:37:56.975 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-31 21:37:56.975 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-31 21:37:56.975 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-31 21:37:56.975 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-31 21:37:56.975 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-31 21:37:56.975 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-31 21:37:56.975 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-31 21:47:55.293 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-31 21:47:55.293 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-31 21:47:58.994 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-31 21:47:58.994 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-31 21:48:01.098 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-31 21:48:01.098 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-31 21:48:01.829 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-31 21:48:01.829 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-31 21:48:31.237 [info] > git rev-parse --show-toplevel [2ms]
+2025-01-31 21:48:31.237 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-31 21:48:35.285 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-31 21:48:35.286 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-31 21:49:26.218 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-31 21:49:26.218 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-31 21:52:27.945 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-31 21:52:27.945 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-31 21:55:01.844 [info] > git init -b main [58ms]
+2025-01-31 21:55:01.848 [info] > git rev-parse --show-toplevel [1ms]
+2025-01-31 21:55:01.852 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2025-01-31 21:55:01.864 [info] [Model][openRepository] Opened repository: /home/student
+2025-01-31 21:55:01.875 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-31 21:55:01.876 [info] > git config --get commit.template [4ms]
+2025-01-31 21:55:01.880 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-01-31 21:55:01.880 [warning] [Git][getBranch] No such branch: main
+2025-01-31 21:55:01.887 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-01-31 21:55:01.902 [info] > git status -z -uall [19ms]
+2025-01-31 21:55:01.959 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-01-31 21:55:01.959 [warning] [Git][getBranch] No such branch: main
+2025-01-31 21:55:01.959 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-01-31 21:55:02.238 [info] > git config --get commit.template [281ms]
+2025-01-31 21:55:02.255 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-31 21:55:02.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-01-31 21:55:02.256 [warning] [Git][getBranch] No such branch: main
+2025-01-31 21:55:02.264 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-01-31 21:55:02.280 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [8ms]
+2025-01-31 21:55:02.280 [info] fatal: bad revision 'refs/heads/main'
+2025-01-31 21:55:02.280 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-01-31 21:55:02.282 [info] > git status -z -uall [23ms]
+2025-01-31 21:55:02.631 [info] > git show --textconv :.bash_logout [6ms]
+2025-01-31 21:55:02.632 [info] > git ls-files --stage -- /home/student/.bash_logout [4ms]
+2025-01-31 21:55:03.127 [info] > git check-ignore -v -z --stdin [2ms]
+2025-01-31 21:55:03.420 [info] > git ls-files --stage -- /home/student/.bash_logout [2ms]
+2025-01-31 21:55:03.500 [info] > git show --textconv :.bash_logout [1ms]

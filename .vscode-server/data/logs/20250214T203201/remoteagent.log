@@ -1,0 +1,21 @@
+2025-02-14 20:32:01.684 [info] 
+
+
+
+
+2025-02-14 20:32:01.694 [info] Extension host agent started.
+2025-02-14 20:32:01.894 [info] [<unknown>][0fbf6272][ExtensionHostConnection] New connection established.
+2025-02-14 20:32:01.895 [info] [<unknown>][a76b01da][ManagementConnection] New connection established.
+2025-02-14 20:32:02.004 [info] [<unknown>][0fbf6272][ExtensionHostConnection] <1234> Launched Extension Host Process.
+2025-02-14 20:32:25.271 [info] [<unknown>][a76b01da][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-14 20:32:25.293 [info] [<unknown>][0fbf6272][ExtensionHostConnection] <1234> Extension Host Process exited with code: 0, signal: null.
+2025-02-14 20:32:25.293 [info] Cancelling previous shutdown timeout
+2025-02-14 20:32:25.293 [info] Last EH closed, waiting before shutting down
+2025-02-14 20:32:34.734 [info] [<unknown>][9d1078ce][ExtensionHostConnection] New connection established.
+2025-02-14 20:32:34.735 [info] [<unknown>][8f68b36b][ManagementConnection] New connection established.
+2025-02-14 20:32:34.738 [info] [<unknown>][9d1078ce][ExtensionHostConnection] <1370> Launched Extension Host Process.
+2025-02-14 20:37:25.295 [info] New EH opened, aborting shutdown
+2025-02-14 20:37:25.297 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/student/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/server-main.js:181:1060)
+    at process.emit (node:events:530:35)
+2025-02-14 21:23:54.153 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

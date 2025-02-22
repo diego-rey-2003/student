@@ -19,3 +19,6 @@
     at process.<anonymous> (file:///home/student/.vscode-server/cli/servers/Stable-33fc5a94a3f99ebe7087e8fe79fbe1d37a251016/server/out/server-main.js:181:1060)
     at process.emit (node:events:530:35)
 2025-02-14 21:23:54.153 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-02-14 22:36:28.689 [info] [<unknown>][8f68b36b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-02-14 22:36:28.742 [info] [<unknown>][9d1078ce][ExtensionHostConnection] <1370> Extension Host Process exited with code: 0, signal: null.
+2025-02-14 22:36:28.742 [info] Last EH closed, waiting before shutting down

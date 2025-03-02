@@ -98,3 +98,72 @@ cd ENGR212_Rey_Diego
 git add --all
 git commit -m "Lab3 commit"
 git push
+mkdir ~/ENGR212_Rey_Diego/Lab4
+cd ~/ENGR212_Rey_Diego/Lab4
+sudo apt install unzip
+unzip Lyrics.zip
+rm Lyrics.zip
+pwd
+cd . .
+cd ..
+ls -l /home/student/ENGR212_Rey_Diego/Lab4
+cd Lyrics
+cd /home/student/ENGR212_Rey_Diego/Lab4/Lyrics
+ls
+ls *.pdf
+ls *.txt *.pdf
+ls *night*
+mkdir Night
+mv *night* Night/
+ls Lyrics/Night
+cd ..
+ls Lyrics/Night
+grep -r “yeah”
+cd Lyrics
+grep -r “yeah”
+grep -ri "yeah"
+grep -r "yeah$"
+grep -rl "yeah$" | wc -l
+grep -rl "yeah" | wc -l
+grep -r "^hey" Lyrics
+pwd
+ls
+grep -r "^hey" .
+grep -rl "^hey" . | wc -l
+grep -ri "nobody" .
+grep -roi "nobody" . | wc -l
+grep -r "[0-9]" .
+grep -rl "[0-9]" . | wc -l
+cd /home/student/ENGR212_Rey_Diego/Lab3
+pwd
+git add --all
+git commit -m “Lab4 commit”
+git commit -m "Lab4 commit"
+git push
+cd ENGR_Rey_Diego
+cd ~/ENGR212_Rey_Diego
+pwd
+mkdir Lab5
+ls
+cd Lab5
+pwd
+ls
+ls -di Lab5
+pwd
+ls -di .
+pwd
+tar -xf nuimages-v1.0-mini.tar
+ls
+ls -l
+tar -xzf nuimages-v1.0-mini.tgz
+ls
+tar -xzf nuimages-v1.0-mini.tgz
+rm nuimages-v1.0-mini.tgz
+mkdir nuimages_dataset
+mv samples sweeps v1.0-mini nuimages_dataset/
+ls -l Lab5/nuimages_dataset
+ls -l Lab5
+pwd
+ls -l
+cd nuimages_dataset
+ls

@@ -167,3 +167,38 @@ pwd
 ls -l
 cd nuimages_dataset
 ls
+pwd
+cd ~/ENGR212_Rey_Diego/Lab5
+ls
+cd niumages_dataset
+cd nuimages_dataset
+pwd
+cd ..
+cd nuimages_dataset
+pwd
+cd ..
+ls
+cd nuimages_dataset
+ls
+cd  sweeps/CAM_BACK/ 
+ls
+ls | grep "n013"
+ls n013-*
+ls | grep "n013" | wc -l
+cd ..
+cd..
+cd ..
+pwd
+ls | grep "^n013-"
+find . -type f -name "n013-*"
+pwd
+find -name patternToMatch -exec cp {} ../defective/ \;
+pwd
+ls sweeps/CAM_BACK | grep "n013-"
+find . -type f -name "n013-*" -exec cp {} ../defective/ \;
+mkdir -p ../defective
+find . -type f -name "n013-*" -exec cp {} ../defective/ \;
+git add --all
+git commit -m “Lab5 commit”
+git commit -m "Lab5 commit"
+git push
